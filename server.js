@@ -10,7 +10,7 @@ connectDB();
 app.use(express.json());
 
 const corsOptions = {
-    origin: 'https://todo-frontend-two-beta.vercel.app/',
+    origin: true,
     credentials: true,
 };
 app.use(cors(corsOptions));
