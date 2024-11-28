@@ -15,7 +15,7 @@ app.use(cookieParser());
 
 app.use(
     cors({
-        origin: 'https://todo-frontend-two-beta.vercel.app/',
+        origin: 'https://todo-frontend-two-beta.vercel.app',
         credentials: true, 
     })
 );
